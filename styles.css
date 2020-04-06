@@ -109,15 +109,19 @@ main{
 
 .row_months{
     width: 100%;
-    height: 400px;
+    height:450px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap: wrap;
-    background-color: rgb(238, 230, 162);
+    background-color: blue;
 }
 
 .column_month{
-    width: 33.33%;
-    height: 190px;
-    /* flex-direction: ; */
+    width: 31.5%;
+    height:200px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    background-color: chartreuse; 
+    margin: 10px; 
 }
