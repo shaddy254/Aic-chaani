@@ -1,0 +1,123 @@
+html{
+    
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+    /* overflow: hidden; */
+}
+h1, h2{
+    /* text-transform: uppercase; */
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.row_logo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;background-color: tomato;
+}
+
+.logo_church{
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+.logo_africa{
+    margin: auto;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(233, 221, 221);
+}
+
+header h1{
+    color: black;
+    font-size: 18px;
+    margin: auto;
+}
+
+header h2{
+    color: red;
+    font-size: 14px;
+   
+}
+
+.heading_title{
+    text-align: center;
+    display: block;
+}
+main{
+    text-align: center;
+}
+
+.main_body{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.ribbon{
+ /* background-color: yellow; */
+}
+
+.heading_sendthelight{
+    line-height: 0.5;
+    font-size: 50px;
+    color: yellow;
+    font-style: italic;
+    text-transform: capitalize;
+    font-stretch: expanded;
+    height: 30%;
+    /* background-color: rgb(73, 26, 202); */
+   }
+
+   .theme_verset{
+    line-height: 1.5;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    height: 30%;
+    font-style: italic;
+    /* background-color: rgb(50, 190, 120); */
+   }
+.year{
+    line-height: 0.5;
+    font-size: 70px;
+    color: #ff0000;
+    font-style: italic;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    height: 30%;
+}
+
+.calender{
+    margin: 15px auto;
+    background-color: yellowgreen;
+}
+
+
+.row_months{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(238, 230, 162);
+}
+
+.column_month{
+    width: 33.33%;
+    height: 190px;
+    /* flex-direction: ; */
+}
